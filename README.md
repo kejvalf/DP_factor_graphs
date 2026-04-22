@@ -28,17 +28,20 @@ Cílem práce a přiloženého softwaru je demonstrovat výhody dávkové optima
 DP_factor_graphs/
 │
 ├── MATLAB/                 # Skripty a třídy pro prostředí MATLAB
-│   ├── main_LS.m           # Experiment 1: Lineární systém
-│   ├── main_NS.m           # Experiment 2: Mírně nelineární systém
-│   ├── main_MAPA.m         # Experiment 3: Terénní navigace
-│   ├── FactorGraphSolver.m # Třída vlastního řešiče FG
-│   └── TrajectoryFilters.m # Třída s filtry (EKF, UKF, IEKF, ERTSS)
+│   ├── FG_estimation_LS.m           # Experiment 1: Lineární systém
+│   ├── FG_estimation_NS.m           # Experiment 2: Mírně nelineární systém
+│   ├── FG_estimation_window.m       # Skript pro window odhad FG
+│   ├── FG_estimation_batch.m        # Skript pro batch odhad FG
+│   ├── FactorGraphSolver.m          # Třída vlastního řešiče FG
+│   └── TrajectoryFilters.m          # Třída s filtry (EKF, UKF, IEKF, ERTSS)
 │
-├── CPP_GTSAM/              # Zdrojové kódy v C++ (GTSAM)
-│   ├── CMakeLists.txt      # Konfigurační soubor pro sestavení
+├── CPP_GTSAM/                        # Zdrojové kódy v C++ (GTSAM)
+│   ├── CMakeLists.txt                # Konfigurační soubor pro sestavení
 │   ├── GNSS_X.csv, GNSS_Y.csv        # Referenční trajektorie
-│   ├── main_mc.cpp         # Zdrojový kód pro Monte Carlo simulace 
-│   ├── hB.csv                        # Data měření
+│   ├── main.cpp                      # Zdrojový kód pro nelineární systém
+│   ├── main_LS.cpp                   # Zdrojový kód pro lineární systém
+│   ├── main_MC.cpp                   # Zdrojový kód pro Monte Carlo simulaci
+│   ├── hB.csv                        # Data měření výškoměru
 │   ├── mapX.csv, mapY.csv, mapZ.csv  # Digitální model terénu (DEM)
-│   └── MapUtils.h          # Nástroje pro práci s mapou a výpočet gradientů
+│   └── MapUtils.h                    # Nástroje pro práci s mapou a výpočet gradientů
     
