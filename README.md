@@ -36,10 +36,9 @@ DP_factor_graphs/
 │
 ├── CPP_GTSAM/              # Zdrojové kódy v C++ (GTSAM)
 │   ├── CMakeLists.txt      # Konfigurační soubor pro sestavení
-│   ├── main_mc.cpp         # Zdrojový kód pro Monte Carlo simulace
+│   ├── GNSS_X.csv, GNSS_Y.csv        # Referenční trajektorie
+│   ├── main_mc.cpp         # Zdrojový kód pro Monte Carlo simulace 
+│   ├── hB.csv                        # Data měření
+│   ├── mapX.csv, mapY.csv, mapZ.csv  # Digitální model terénu (DEM)
 │   └── MapUtils.h          # Nástroje pro práci s mapou a výpočet gradientů
-│
-└── data/                   # Dataset a vstupní soubory
-    ├── mapX.csv, mapY.csv, mapZ.csv  # Digitální model terénu (DEM)
-    ├── GNSS_X.csv, GNSS_Y.csv        # Referenční trajektorie
-    └── hB.csv                        # Data měření
+    
