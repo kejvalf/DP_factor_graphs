@@ -28,10 +28,10 @@ Cílem práce a přiloženého softwaru je demonstrovat výhody dávkové optima
 DP_factor_graphs/
 │
 ├── MATLAB/                 # Skripty a třídy pro prostředí MATLAB
-│   ├── FG_estimation_LS.m           # Experiment 1: Lineární systém
-│   ├── FG_estimation_NS.m           # Experiment 2: Mírně nelineární systém
-│   ├── FG_estimation_window.m       # Skript pro window odhad FG
-│   ├── FG_estimation_batch.m        # Skript pro batch odhad FG
+│   ├── FG_estimation_LS.m           # Skript pro lineární systém
+│   ├── FG_estimation_NS.m           # Skript pro mírně nelineární systém
+│   ├── FG_estimation_window.m       # Skript pro window odhad FG - TAN
+│   ├── FG_estimation_batch.m        # Skript pro batch odhad FG - TAN
 │   ├── FactorGraphSolver.m          # Třída vlastního řešiče FG
 │   └── TrajectoryFilters.m          # Třída s filtry (EKF, UKF, IEKF, ERTSS)
 │
