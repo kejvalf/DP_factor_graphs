@@ -14,7 +14,7 @@ Cílem práce a přiloženého softwaru je demonstrovat výhody dávkové optima
 
 1. **Lineární systém (LS)** – Verifikace matematické ekvivalence faktorových grafů a optimálního vyhlazovače RTSS.
 2. **Systém s mírnou nelinearitou (NS)** – Sledování skrytého parametru a demonstrace řešení problému nepřesné počáteční podmínky.
-3. **Terénní navigace (TAN - Terrain Aided Navigation)** – Silně nekonvexní problém map-matchingu nad digitálním modelem elevace (DEM), testovaný při degradaci senzoru rychlosti. Demonstruje nasazení faktorového grafu v režimu klouzavého okna (Sliding Window) a analýzu statistické konzistence (ANEES).
+3. **Terénní navigace (TAN - Terrain Aided Navigation)** – Silně nekonvexní problém map-matchingu nad digitálním modelem elevace, testovaný při degradaci senzoru rychlosti. Demonstruje nasazení faktorového grafu v režimu klouzavého okna (Sliding Window) a analýzu statistické konzistence (ANEES).
 
 ### Zahrnuté implementace:
 * **MATLAB**: Vlastní implementace řešiče faktorových grafů pro řídké matice (Batch i Sliding Window režim), sada implementovaných Kalmanových filtrů.
